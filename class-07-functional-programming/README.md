@@ -2,6 +2,8 @@
 
 Step into the declarative paradigm.
 
+Pair up to work on the MVC blog, then take what you learn to your portfolio site.
+
 ## User Stories
  1. As a site owner, I want a place to see my blog info, so that I can check my vanity stats.
  - As a site owner, I want to see total number of articles, authors, and words on the site, so that I can see blog health at a glance.
