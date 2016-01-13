@@ -1,7 +1,7 @@
   // DONE: Wrap the entire contents of this file in an IIFE.
   // Pass in to the IIFE a module, upon which objects can be attached for later access.
 
-(function(module) {
+
   function Article (opts) {
     this.author = opts.author;
     this.authorUrl = opts.authorUrl;
@@ -10,6 +10,10 @@
     this.body = opts.body;
     this.publishedOn = opts.publishedOn;
   }
+
+
+(function(module) {
+
 
   Article.all = [];
 
@@ -98,5 +102,5 @@
     })
   };
 
-    module.article = article;
-  })(window);
+  module.Article = Article;
+})(window);
